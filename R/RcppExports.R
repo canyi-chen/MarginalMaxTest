@@ -2,34 +2,34 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 sort_vector <- function(v) {
-    .Call('_MarginalMaxTest_sort_vector', PACKAGE = 'MarginalMaxTest', v)
+    .Call(`_MarginalMaxTest_sort_vector`, v)
 }
 
 center_matrix_rcpp <- function(x) {
-    .Call('_MarginalMaxTest_center_matrix_rcpp', PACKAGE = 'MarginalMaxTest', x)
+    .Call(`_MarginalMaxTest_center_matrix_rcpp`, x)
 }
 
 get_t_statistics_rcpp <- function(x, y, var_x, var_y) {
-    .Call('_MarginalMaxTest_get_t_statistics_rcpp', PACKAGE = 'MarginalMaxTest', x, y, var_x, var_y)
+    .Call(`_MarginalMaxTest_get_t_statistics_rcpp`, x, y, var_x, var_y)
 }
 
 aggregate_by_cum_sum_rcpp <- function(t) {
-    .Call('_MarginalMaxTest_aggregate_by_cum_sum_rcpp', PACKAGE = 'MarginalMaxTest', t)
+    .Call(`_MarginalMaxTest_aggregate_by_cum_sum_rcpp`, t)
 }
 
 aggregate_marginals_rcpp <- function(t) {
-    .Call('_MarginalMaxTest_aggregate_marginals_rcpp', PACKAGE = 'MarginalMaxTest', t)
+    .Call(`_MarginalMaxTest_aggregate_marginals_rcpp`, t)
 }
 
 get_p_value_rcpp <- function(obs, null) {
-    .Call('_MarginalMaxTest_get_p_value_rcpp', PACKAGE = 'MarginalMaxTest', obs, null)
+    .Call(`_MarginalMaxTest_get_p_value_rcpp`, obs, null)
 }
 
 simulate_null_rcpp <- function(x, var_x, q, n_sim) {
-    .Call('_MarginalMaxTest_simulate_null_rcpp', PACKAGE = 'MarginalMaxTest', x, var_x, q, n_sim)
+    .Call(`_MarginalMaxTest_simulate_null_rcpp`, x, var_x, q, n_sim)
 }
 
 detect_effect_rcpp <- function(x, y, alpha, num_sim) {
-    .Call('_MarginalMaxTest_detect_effect_rcpp', PACKAGE = 'MarginalMaxTest', x, y, alpha, num_sim)
+    .Call(`_MarginalMaxTest_detect_effect_rcpp`, x, y, alpha, num_sim)
 }
 

@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^Sim$
 ^LICENSE\.md$
+^cran-comments\.md$
+^README\.Rmd$

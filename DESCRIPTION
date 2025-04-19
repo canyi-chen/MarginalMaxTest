@@ -1,8 +1,8 @@
 Package: MarginalMaxTest
-Title: Max-type Test for Marginal Correlation with Bootstrap
-Version: 1.0
+Title: Max-Type Test for Marginal Correlation with Bootstrap
+Version: 1.0.1
 Authors@R: 
-    person("Canyi", "Chen", , "cychen.stats@outlook.com", role = c("aut", "cre"),
+    person("Canyi", "Chen", , "cychen.stats@outlook.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-0673-5812"))
 Description: Test the marginal correlation between a scalar response variable with a vector of explanatory variables 
     using the max-type test with bootstrap.
